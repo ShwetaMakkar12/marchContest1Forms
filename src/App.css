@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.erors{
+    color: red;
+}
+.content{
+    display: flex;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 300px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+}
+#signUp{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    background-color:rgb(26, 102, 195);
+    border: none;
+    left: 47%;
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+ }
+ .fieldsNames{
+    font-size: large;
+    font-weight: bold;
+}
